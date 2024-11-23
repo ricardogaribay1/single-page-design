@@ -1,0 +1,108 @@
+body {
+    background-color: #FFF7F0; /* Define el color de fondo de la página */
+    color: #030303; /* Define el color del texto principal */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /* Establece la familia del texto */
+}
+
+nav {
+    display: flex; /* Utiliza flexbox para organizar los elementos de navegación */
+    justify-content: space-between; /* Distribuye los elementos de manera que haya espacio entre ellos */
+    align-items: center; /* Alinea verticalmente los elementos */
+}
+
+#logo img {
+    width: 64px; /* Establece el ancho de la imagen del logo */
+    aspect-ratio: 1; /* Mantiene la relación de aspecto cuadrada de la imagen */
+}
+
+#call-to-action {
+    background-color: #030303; /* Color de fondo del enlace de llamada a la acción */
+    color: #FFF7F0; /* Color del texto del enlace */
+    text-decoration: none; /* Elimina el subrayado predeterminado del enlace */
+    padding: 14px 45px; /* Añade espacio alrededor del texto del enlace */
+    border-radius: 1000px; /* Aplica bordes redondeados extremos al enlace */
+}
+
+.text-content {
+    text-align: center; /* Centra el texto dentro del contenedor */
+}
+
+h1 {
+    font-size: 56px; /* Establece el tamaño de fuente para el título principal */
+    margin-block-end: 22px; /* Añade un margen al final del título */
+}
+
+.text-content p {
+    color: #7A746E; /* Establece el color del texto del párrafo */
+}
+
+.image-container {
+    display: flex; /*Utiliza flexbox para organizar las imágenes de manera horizontal*/
+    gap: 24px; /* Añade un espacio de 24px entre las imágenes */
+    justify-content: center;
+}
+
+.image-container a {
+    border-radius: 3%;
+    text-decoration: none;
+    color: white;
+    width: 354px;
+    height: 364px;
+    /* border: #030303 solid 1px;*/
+    /* flex-basis: 100%;Hace que cada caja ocupe el mismo espacio disponible */
+    /* flex-basis: 1000000000px; Comentado, podría haber sido un intento de ampliar el ancho */
+
+    
+}
+
+h3 {
+    margin-left: 20px;
+}
+
+.graphic-design  {
+    background-color: #755cde;
+    display: flex;
+    flex-direction: column;
+    gap: 91px;
+    
+}
+
+.graphic-design img {
+    margin-top: 20px;
+    margin-right: 20px;
+    width: 128px;
+    height: 192px;
+    align-self: flex-end;
+}
+
+.illustrations {
+    background-color: #eb7565;
+    display: flex;
+    flex-direction: column;
+    gap: 168.13px;
+
+}
+
+.illustrations img {
+    margin-top: 20px;
+    margin-right: 20px;
+    width: 229.75px;
+    height: 114.87px;
+    align-self: flex-end;
+}
+
+.photography {
+    background-color: #61c4b7;
+    display: flex;
+    flex-direction: column;
+    gap: 66.35px;
+
+}
+
+.photography img {
+    margin-top: 20px;
+    margin-right: 20px;
+    width: 86.66px;
+    height: 216.65px;
+    align-self: flex-end;
+}
