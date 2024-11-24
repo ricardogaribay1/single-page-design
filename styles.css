@@ -1,7 +1,7 @@
 body {
     background-color: #FFF7F0; /* Define el color de fondo de la página */
     color: #030303; /* Define el color del texto principal */
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /* Establece la familia del texto */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 nav {
@@ -105,4 +105,33 @@ h3 {
     width: 86.66px;
     height: 216.65px;
     align-self: flex-end;
+}
+
+
+.image-seccion {
+    display: flex; 
+    flex-direction: row; 
+    margin-top: 112px; /* Espaciado superior */
+    width: 1110px; /* Ancho total del contenedor */
+    height: 445px; /* Altura total del contenedor */
+    margin-left: auto; 
+    margin-right: auto; 
+    gap: 160px; /* Espacio entre la imagen y el texto */
+}
+
+.image-seccion img {
+    width: 445px; 
+    height: 445px; 
+    object-fit: cover; 
+}
+
+
+#call-to-actions {
+    background-color: #eb7565; 
+    color: #FFF7F0; 
+    text-decoration: none; 
+    width: 228px;
+    padding: 12px 45px; 
+    border-radius: 1000px; 
+    display: inline-block; 
 }
