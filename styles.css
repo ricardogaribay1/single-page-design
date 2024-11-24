@@ -1,23 +1,26 @@
 body {
-    background-color: #FFF7F0; /* Define el color de fondo de la página */
-    color: #030303; /* Define el color del texto principal */
+    background-color: #FFF7F0; 
+    color: #030303; 
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 nav {
     display: flex; /* Utiliza flexbox para organizar los elementos de navegación */
-    justify-content: space-between; /* Distribuye los elementos de manera que haya espacio entre ellos */
-    align-items: center; /* Alinea verticalmente los elementos */
+    justify-content: center; 
+    align-items: center; 
+    gap: 731.36px
 }
 
 #logo img {
-    width: 64px; /* Establece el ancho de la imagen del logo */
+    width: 64px; 
     aspect-ratio: 1; /* Mantiene la relación de aspecto cuadrada de la imagen */
+    padding-right: 100px;
+    gap: 100px;
 }
 
 #call-to-action {
-    background-color: #030303; /* Color de fondo del enlace de llamada a la acción */
-    color: #FFF7F0; /* Color del texto del enlace */
+    background-color: #030303; 
+    color: #FFF7F0; 
     text-decoration: none; /* Elimina el subrayado predeterminado del enlace */
     padding: 14px 45px; /* Añade espacio alrededor del texto del enlace */
     border-radius: 1000px; /* Aplica bordes redondeados extremos al enlace */
@@ -25,20 +28,22 @@ nav {
 
 .text-content {
     text-align: center; /* Centra el texto dentro del contenedor */
+    width: 752px;
+    margin: 0 auto 80px; /* Centra y añade espacio debajo del texto */
 }
 
 h1 {
-    font-size: 56px; /* Establece el tamaño de fuente para el título principal */
+    font-size: 61px; /* Establece el tamaño de fuente para el título principal */
     margin-block-end: 22px; /* Añade un margen al final del título */
 }
 
 .text-content p {
-    color: #7A746E; /* Establece el color del texto del párrafo */
+    color: #7A746E; 
 }
 
 .image-container {
     display: flex; /*Utiliza flexbox para organizar las imágenes de manera horizontal*/
-    gap: 24px; /* Añade un espacio de 24px entre las imágenes */
+    gap: 24px; 
     justify-content: center;
 }
 
@@ -49,8 +54,8 @@ h1 {
     width: 354px;
     height: 364px;
     /* border: #030303 solid 1px;*/
-    /* flex-basis: 100%;Hace que cada caja ocupe el mismo espacio disponible */
-    /* flex-basis: 1000000000px; Comentado, podría haber sido un intento de ampliar el ancho */
+    /* flex-basis: 100%; */
+    /* flex-basis: 1000000000px; */
 
     
 }
@@ -107,16 +112,25 @@ h3 {
     align-self: flex-end;
 }
 
+h2 {
+    font-size: 2.5em;
+
+}
+
+.image-seccion p {
+    text-align: justify;
+}
+
 
 .image-seccion {
     display: flex; 
     flex-direction: row; 
-    margin-top: 112px; /* Espaciado superior */
-    width: 1110px; /* Ancho total del contenedor */
-    height: 445px; /* Altura total del contenedor */
+    margin-top: 112px; 
+    width: 1110px; 
+    height: 445px; 
     margin-left: auto; 
     margin-right: auto; 
-    gap: 125px; /* Espacio entre la imagen y el texto */
+    gap: 125px; 
 }
 
 .image-seccion img {
@@ -130,8 +144,8 @@ h3 {
     background-color: #eb7565; 
     color: #FFF7F0; 
     text-decoration: none; 
-    width: 228px;
-    padding: 12px 45px; 
+    width: 178px;
+    padding: 12px 25px; 
     border-radius: 1000px; 
     display: inline-block; 
 }
