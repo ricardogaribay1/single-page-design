@@ -1,49 +1,59 @@
 body {
-    background-color: #FFF7F0; 
-    color: #030303; 
+    background-color: #FFF7F0;
+    color: #030303;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 nav {
-    display: flex; /* Utiliza flexbox para organizar los elementos de navegación */
-    justify-content: center; 
-    align-items: center; 
+    display: flex;
+    /* Utiliza flexbox para organizar los elementos de navegación */
+    justify-content: center;
+    align-items: center;
     gap: 731.36px
 }
 
 #logo img {
-    width: 64px; 
-    aspect-ratio: 1; /* Mantiene la relación de aspecto cuadrada de la imagen */
+    width: 64px;
+    aspect-ratio: 1;
+    /* Mantiene la relación de aspecto cuadrada de la imagen */
     padding-right: 100px;
     gap: 100px;
 }
 
 #call-to-action {
-    background-color: #030303; 
-    color: #FFF7F0; 
-    text-decoration: none; /* Elimina el subrayado predeterminado del enlace */
-    padding: 14px 45px; /* Añade espacio alrededor del texto del enlace */
-    border-radius: 1000px; /* Aplica bordes redondeados extremos al enlace */
+    background-color: #030303;
+    color: #FFF7F0;
+    text-decoration: none;
+    /* Elimina el subrayado predeterminado del enlace */
+    padding: 14px 45px;
+    /* Añade espacio alrededor del texto del enlace */
+    border-radius: 1000px;
+    /* Aplica bordes redondeados extremos al enlace */
 }
 
 .text-content {
-    text-align: center; /* Centra el texto dentro del contenedor */
+    text-align: center;
+    /* Centra el texto dentro del contenedor */
     width: 752px;
-    margin: 0 auto 80px; /* Centra y añade espacio debajo del texto */
+    margin: 0 auto 80px;
+    /* Centra y añade espacio debajo del texto */
 }
 
 h1 {
-    font-size: 61px; /* Establece el tamaño de fuente para el título principal */
-    margin-block-end: 22px; /* Añade un margen al final del título */
+    font-size: 61px;
+    /* Establece el tamaño de fuente para el título principal */
+    margin-block-end: 22px;
+    /* Añade un margen al final del título */
 }
 
 .text-content p {
-    color: #7A746E; 
+    color: #7A746E;
 }
 
 .image-container {
-    display: flex; /*Utiliza flexbox para organizar las imágenes de manera horizontal*/
-    gap: 24px; 
+    display: flex;
+    /*Utiliza flexbox para organizar las imágenes de manera horizontal*/
+    gap: 24px;
     justify-content: center;
 }
 
@@ -57,19 +67,19 @@ h1 {
     /* flex-basis: 100%; */
     /* flex-basis: 1000000000px; */
 
-    
+
 }
 
 h3 {
     margin-left: 20px;
 }
 
-.graphic-design  {
+.graphic-design {
     background-color: #755cde;
     display: flex;
     flex-direction: column;
     gap: 91px;
-    
+
 }
 
 .graphic-design img {
@@ -113,39 +123,42 @@ h3 {
 }
 
 h2 {
-    font-size: 2.5em;
+    font-size: 2.8em;
+    text-align: left;
 
 }
 
 .image-seccion p {
     text-align: justify;
+    font-size: 1.2em;
 }
 
 
 .image-seccion {
-    display: flex; 
-    flex-direction: row; 
-    margin-top: 112px; 
-    width: 1110px; 
-    height: 445px; 
-    margin-left: auto; 
-    margin-right: auto; 
-    gap: 125px; 
+    display: flex;
+    flex-direction: row;
+    margin-top: 112px;
+    width: 1110px;
+    height: 445px;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 125px;
 }
 
 .image-seccion img {
-    width: 445px; 
-    height: 445px; 
-    object-fit: cover; 
+    width: 445px;
+    height: 445px;
+    object-fit: cover;
 }
 
 
 #call-to-actions {
-    background-color: #eb7565; 
-    color: #FFF7F0; 
-    text-decoration: none; 
+    background-color: #eb7565;
+    color: #FFF7F0;
+    text-decoration: none;
     width: 178px;
-    padding: 12px 25px; 
-    border-radius: 1000px; 
-    display: inline-block; 
+    padding: 12px 25px;
+    border-radius: 1000px;
+    display: flex;
+    justify-content: center;
 }
