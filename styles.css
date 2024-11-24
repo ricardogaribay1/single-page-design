@@ -116,7 +116,7 @@ h3 {
     height: 445px; /* Altura total del contenedor */
     margin-left: auto; 
     margin-right: auto; 
-    gap: 160px; /* Espacio entre la imagen y el texto */
+    gap: 125px; /* Espacio entre la imagen y el texto */
 }
 
 .image-seccion img {
